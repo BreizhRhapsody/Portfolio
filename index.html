@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Manon POUCET</title>
+  <meta name="description" content="Portfolio - Manon POUCET - Développeuse Web Junior">
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header class="header">
+    <div class="container d-flex">
+      <div class="logo">
+        Manon Poucet</br>@breizhrhapsody
+      </div>
+      <nav class="navbar ">
+        <ul class="menu list-unstyled">
+          <li><a href="#hero">Accueil</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="right">
+        <ul class="socials list-unstyled">
+          <li>
+            <a href="https://www.facebook.com/breizhrhapsody" target="_blank">
+              <svg aria-hidden="true" class="icon facebook" focusable="false" data-prefix="fab" data-icon="facebook-f"
+                class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512">
+                <path fill="currentColor"
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/manon-poucet-7372001a8/" target="_blank">
+              <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+                class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
+                <path fill="currentColor"
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/breizhrhapsody/" target="_blank">
+              <svg aria-hidden="true" class="icon insta" focusable="false" data-prefix="fab" data-icon="instagram"
+                class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
+                <path fill="currentColor"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                </path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <button class="burger"><span class="bar"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="grid">
+        <div class="hero-item left">
+          <span>Développeuse Web Junior</span>
+          <h1 class="title">Manon Poucet</h1>
+          <p>"Toute technologie suffisamment avancée est indiscernable de la <strong>magie</strong>."</br>- Arthur
+            C. Clarke</p>
+        </div>
+        <div class="hero-item right">
+          <div class="hero-avatar">
+            <img src="./img/cartoonify.png" width="400" height="400" loading="lazy" alt="Avatar Manon POUCET">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="grid">
+        <div class="grid-item">
+          <img src="./img/person(2).png" width="560" height="453" loading="lazy"
+            alt="John Doe - Développeur web freelance">
+        </div>
+        <div class="grid-item">
+          <h2 class="section-title">A propos</h2>
+          <h3>Qui suis-je ?</h3>
+          <p>J'ai vu le jour dans les années 90, une souris dans la main. Dès mes
+            11 ans, j'ai commencé à coder en HTML et à découvrir le Web Design
+            sans comprendre que cela deviendrait, plus tard, mon métier.
+            C'est pourquoi, je suis devenue Assitante Vétérinaire, un métier passion mais dévorant. Alors j'ai pris un
+            virage à 190° et j'ai décidé de renforcer mes compétences dans le développement web grâce à l'école STUDI.
+            <p>Mes alliés sont les langages HTML5, CSS3, JavaScript, React.js, PHP et
+              les frameworks Bootstrap 5 et Symfony. Je maîtrise également le CMS
+              Wordpress.
+              Suivre un projet de A à Z me passionne (réalisation de chartes graphiques, wireframes, prototypes,
+              conception de l'application web...). Et quoi de mieux que de revêtir une seule et même casquette ?
+              Celle de Web Designeuse et de Développeuse.
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Mes compétences</h2>
+      </div>
+      <div class="grid">
+        <div class="grid-item">
+          <h3>Domaines de compétences</h3>
+          <ul class="list-unstyled">
+            <li>
+              <h4>Gestion de projets web</h4>
+              <p>De la demande au produit final</p>
+            </li>
+            <li>
+              <h4>Intégration web</h4>
+              <p>Traduire les projets graphiques en respectant les normes</p>
+            </li>
+            <li>
+              <h4>Référencement naturel</h4>
+              <p>Structurer, renseigner le contenu, liens internes...</p>
+            </li>
+            <li>
+              <h4>Conception graphique et webdesign</h4>
+              <p>Maîtrise de Figma et d'Adobe XD</p>
+            </li>
+            <li>
+              <h4>Dynamisme des pages</h4>
+              <p>Utilisation de JavaScript, de PHP</p>
+            </li>
+            <li>
+              <h4>Responsive design</h4>
+              <p>Création et utilisation de Media Queries</p>
+            </li>
+            <li>
+              <h4>Versionning et partage de projet</h4>
+              <p>Grâce à Git et Github</p>
+            </li>
+            <li>
+              <h4>Maîtrise de l'environnement Windows</h4>
+              <p>Utilisation de l'invite de commandes</p>
+            </li>
+          </ul>
+        </div>
+        <div class="grid-item">
+          <h3>Compétences en développement</h3>
+          <div class="progressbar">
+            <div class="bar" data-width="85">HTML</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="75">CSS</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="65">BOOTSTRAP</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="60">JAVASCRIPT</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="50">REACT.JS</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="45">PHP</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="40">SYMFONY</div>
+          </div>
+          <h3>Compétences en conception graphique</h3>
+          <div class="progressbar">
+            <div class="bar" data-width="90">ADOBE XD</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="85">FIGMA</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="75">PHOTOFILTRE</div>
+          </div>
+        </div>
+
+      </div>
+      <div class="section-header">
+        <p><a href="./CV Manon POUCET.pdf" target="_blank"><svg aria-hidden="true" class="icon cv" focusable="false" data-prefix="fab"
+              width="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+              <path fill="currentColor"
+                d="M384 128h-128V0L384 128zM256 160H384v304c0 26.51-21.49 48-48 48h-288C21.49 512 0 490.5 0 464v-416C0 21.49 21.49 0 48 0H224l.0039 128C224 145.7 238.3 160 256 160zM255 295L216 334.1V232c0-13.25-10.75-24-24-24S168 218.8 168 232v102.1L128.1 295C124.3 290.3 118.2 288 112 288S99.72 290.3 95.03 295c-9.375 9.375-9.375 24.56 0 33.94l80 80c9.375 9.375 24.56 9.375 33.94 0l80-80c9.375-9.375 9.375-24.56 0-33.94S264.4 285.7 255 295z" />
+            </svg></a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Portfolio</h2>
+      </div>
+
+      <div class="grid">
+        <div class="grid-item">
+          <div class="card">
+            <img src="./img/archedebreizh.png" loading="lazy" width="365" height="243"
+              alt="Projet association fictive Arche de Breizh" class="card-image">
+            <div class="card-inner">
+              <h3 class="card-title">Arche de Breizh</h3>
+              <p class="category">HTML/CSS</p>
+            </div>
+            <div class="card-overlay">
+              <a href="https://archedebreizh-refuge.netlify.app/" class="card-link" target="_blank"
+                data-id="modal-1"><svg class="link-img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 640 512">
+                  <path fill="currentColor"
+                    d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img src="./img/dicegame.png" loading="lazy" width="365" height="243" alt="Jeu web - Dice Game"
+              class="card-image">
+            <div class="card-inner">
+              <h3 class="card-title">Dice Game</h3>
+              <p class="category">HTML/CSS/JS</p>
+            </div>
+            <div class="card-overlay">
+              <a href="https://dicegame-mp.netlify.app/" class="card-link" target="_blank" data-id="modal-1"><svg
+                  class="link-img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                  <path fill="currentColor"
+                    d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <div class="card">
+            <img src="./img/domainedelamotillais.png" loading="lazy" width="365" height="243"
+              alt="Site web Domaine de la Motillais" class="card-image">
+            <div class="card-inner">
+              <h3 class="card-title">Domaine de la Motillais</h3>
+              <p class="category">CMS Wordpress</p>
+            </div>
+            <div class="card-overlay">
+              <a href="https://www.domainedelamotillais.com/" class="card-link" target="_blank" data-id="modal-1"><svg
+                  class="link-img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                  <path fill="currentColor"
+                    d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z" />
+                </svg></a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="grid-item">
+          <div class="card">
+            <img src="./img/lutteanticovid.png" loading="lazy" width="365" height="243" alt="Projet Lutte AntiCovid"
+              class="card-image">
+            <div class="card-inner">
+              <h3 class="card-title">Lutte AntiCovid</h3>
+              <p class="category">CMS Wordpress</p>
+            </div>
+            <div class="card-overlay">
+              <a href="https://lutteanticovid.go.yj.fr/" class="card-link" target="_blank" data-id="modal-1"><svg
+                  class="link-img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                  <path fill="currentColor"
+                    d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z" />
+                </svg></a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="grid-item">
+          <div class="card">
+            <img src="./img/frames-urssaf.png" loading="lazy" width="365" height="243"
+              alt="Prototype appli mobile URSSAF" class="card-image">
+            <div class="card-inner">
+              <h3 class="card-title">Prototype appli mobile</h3>
+              <p class="category">Adobe XD</p>
+            </div>
+            <div class="card-overlay">
+              <a href="https://xd.adobe.com/view/27c07caa-8f98-4a83-84f4-f1352905bbc4-7293/?fullscreen&hints=off"
+                class="card-link" target="_blank" data-id="modal-1"><svg class="link-img" aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                  <path fill="currentColor"
+                    d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z" />
+                </svg></a>
+            </div>
+          </div>
+
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img src="./img/devunsplash.jpg" loading="lazy" width="365" height="243" alt="Projet à venir"
+              class="card-image">
+            <div class="card-inner">
+              <h3 class="card-title">Projet à venir</h3>
+              <p class="category">HTML/CSS/JS/PHP/SYMFONY</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+      </div>
+
+      <form name="contact" method="POST" data-netlify="true" class="form">
+        <label for="firstname">
+          <input type="text" name="firstname" id="firstname" placeholder="Nom" required>
+        </label>
+        <label for="lastname">
+          <input type="text" name="lastname" id="lastname" placeholder="Prénom" required>
+        </label>
+        <label for="email">
+          <input type="email" name="email" id="email" placeholder="Email" required>
+        </label>
+        <textarea name="message" id="message" placeholder="Message" required></textarea>
+        <div><input class="checkbox" type="checkbox" id="checkbox" name="checkbox" required></input><label
+            for="checkbox">En soumettant
+            ce formulaire, j'accepte que mes données personnelles soient utilisées pour me recontacter. Aucun autre
+            traitement ne sera effectué avec mes informations. Pour connaître et exercer vos droits, veuillez consultez
+            la Politique de confidentialité.</label></div>
+        <input type="submit" class="btn" value="Envoyer">
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div class="grid-item">
+          <p class="footer-title">Manon Poucet</p>
+        </div>
+        <div class="grid-item">
+          <ul class="mentions list-unstyled">
+            <li>
+              <a href="./protections.html">Politique de confidentialité</a>
+            </li>
+            <li>
+              <a href="./mentions.html">Mentions légales</a>
+            </li>
+            <li>
+              <p class="copyright">Copyright © 2022 - Tous droits réservés</p>
+            </li>
+          </ul>
+        </div>
+        <div class="grid-item">
+          <ul class="socials list-unstyled">
+            <li>
+              <a href="https://www.facebook.com/breizhrhapsody" target="_blank">
+                <svg aria-hidden="true" class="icon facebook" focusable="false" data-prefix="fab" data-icon="facebook-f"
+                  class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 320 512">
+                  <path fill="currentColor"
+                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/manon-poucet-7372001a8/" target="_blank">
+                <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab"
+                  data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/breizhrhapsody/" target="_blank">
+                <svg aria-hidden="true" class="icon insta" focusable="false" data-prefix="fab" data-icon="instagram"
+                  class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512">
+                  <path fill="currentColor"
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
