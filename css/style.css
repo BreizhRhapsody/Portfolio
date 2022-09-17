@@ -598,10 +598,8 @@ section {
   margin: 30px;
 }
 
-.form-right {
-  display: flex;
-  justify-content: right;
-  align-items: right;
+.recaptcha {
+  margin: 0;
 }
 
 
