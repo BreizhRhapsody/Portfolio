@@ -583,9 +583,6 @@ section {
   min-width: 160px;
   font-size: 2rem;
   text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .form .btn:hover {
