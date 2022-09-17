@@ -560,6 +560,7 @@ section {
 .form {
   max-width: 600px;
   margin: 4rem auto 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .form input,
@@ -582,6 +583,9 @@ section {
   min-width: 160px;
   font-size: 2rem;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form .btn:hover {
