@@ -345,6 +345,10 @@ section {
   animation-name: slideInRight;
 }
 
+.hero-avatar img {
+  width: 100%;
+}
+
 @media screen and (max-width: 749px) {
   .hero-item.left {
     order: 2;
